@@ -1,5 +1,5 @@
 {
-  "$schema": "https://agent-plugins.org/specification/schema/plugin.json",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "goodrecmovies",
   "description": "Skills for answering what-to-watch questions from the goodrecmovies ranking (every movie above 7.0, ranked by math, not vibes).",
   "homepage": "https://goodrecmovies.com",
