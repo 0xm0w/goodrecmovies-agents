@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/specification/schema/plugin.json",
+  "name": "goodrecmovies",
+  "description": "Skills for answering what-to-watch questions from the goodrecmovies ranking (every movie above 7.0, ranked by math, not vibes).",
+  "homepage": "https://goodrecmovies.com",
+  "skills": [
+    "./skills/find-a-great-movie/SKILL.md",
+    "./skills/look-up-a-title/SKILL.md",
+    "./skills/genre-shortlist/SKILL.md"
+  ]
+}
