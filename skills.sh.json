@@ -1,0 +1,16 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Watch tonight",
+      "description": "Pick from goodrecmovies' maintained ranking instead of vibes.",
+      "skills": ["find-a-great-movie", "genre-shortlist"]
+    },
+    {
+      "title": "Look up a title",
+      "description": "Check where a specific movie or series lands by IMDb id.",
+      "skills": ["look-up-a-title"]
+    }
+  ]
+}
