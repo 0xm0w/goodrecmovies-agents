@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "goodrecmovies"
+version = "0.1.0"
+description = "Official client for the goodrecmovies API — every movie above 7.0, ranked by math, not vibes. Ranked lists, title lookup, search, and NLWeb /ask."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+  { name = "goodrecmovies", email = "hello@goodrecmovies.com" },
+]
+keywords = [
+  "movies",
+  "recommendations",
+  "ranking",
+  "api",
+  "goodrecmovies",
+  "what-to-watch",
+  "nlweb",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Internet :: WWW/HTTP",
+  "Typing :: Typed",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://goodrecmovies.com"
+Documentation = "https://goodrecmovies.com/docs"
+Repository = "https://github.com/0xm0w/goodrecmovies-agents"
+Issues = "https://github.com/0xm0w/goodrecmovies-agents/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
